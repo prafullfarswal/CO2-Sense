@@ -8,9 +8,24 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
 </head>
 <body>
-    <header style="background: #0ab38c; color: rgb(15, 2, 2); padding: 15px; font-size: 24px;border-radius: 10px">
+    <header >
         <h1>What Is Your Carbon Footprint ?</h1>
     </header>
+     <!-- Middle Section -->
+     <div class="container middle-section">
+        <div class="card">
+            <h3>Transportation</h3>
+            <p>Reduce your emissions by carpooling or using public transport.</p>
+        </div>
+        <div class="card">
+            <h3>Electricity</h3>
+            <p>Switch to energy-efficient appliances and renewable energy sources.</p>
+        </div>
+        <div class="card">
+            <h3>Diet</h3>
+            <p>Adopting a plant-based diet can significantly lower your carbon footprint.</p>
+        </div>
+    </div>
     <div class="container">
         <form id="footprint-form">
             <label>🚗 Transportation (km per week):</label>
@@ -35,7 +50,7 @@
 
         <canvas id="chart"></canvas>
     </div>
-    <footer style="margin-top: 20px; padding: 10px; background: #0ab38c; color: rgb(15, 2, 2);border-radius: 10px">
+    <footer style="margin-top: 20px; padding: 10px; background: #0ab38c; color: rgb(15, 2, 2);border-radius: 10px 10px 0 0">
         <p>&copy; 2025 Prafull Farswal | All Rights Reserved</p>
     </footer>
 
